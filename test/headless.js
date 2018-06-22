@@ -5,3 +5,4 @@ global.fixtures = {
 };
 require('../src/data');
 require('./data.spec.js');
+//hola//
