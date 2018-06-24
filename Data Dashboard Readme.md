@@ -21,3 +21,7 @@
        
        
     - 2.2. Búsqueda por Estudiante.    
+    
+  # Control de Flujo
+    
+   Se realiza Control de flujo basado en solo  una Sede y una Generación ya que el flujo se repite por Sede y por Generación
