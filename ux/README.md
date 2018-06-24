@@ -15,9 +15,11 @@ __Usuarixs:__  (Toda la información que sepas de ellxs, ya sea porque las has p
 Este programa esta enfocado principalmente a las Training Manager de Laboratoria, quienes se encargan, entre otras cosas, de dar el seguimiento a las estuduantes y asi poder evaluar las situaciones en las que cada una se encuentra; sin embargo, esta información tambien podrá ser interpretada y tendrán acceso otras areas de Laboratoria.
 
 __Necesidades de las usuarias:__
+Obtener de forma clara y resumida los avances de las alumnas, todo con respecto al sistems LMS, el cual estara dividido basicamente en dos partes, Completo e Incompleto. De alli podran analizar la mayor cantidad de datos posibles.
 
 
 __Objetivos de las usuarias:__ (Lo que quieren o esperan lograr)
+EL objetivo esperado de los usuarios es viaulizar mediante un tablero de datos, informacion especifica por estudiante,
 
 
 __Pain points:__ (En sus actividades diarias qué es lo que más les molesta u obstaculiza en el proceso de  realizar sus actividades/objetivos)
