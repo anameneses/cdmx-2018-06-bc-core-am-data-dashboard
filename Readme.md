@@ -10,10 +10,10 @@
        - 1.3. Se muestran Sub-temas de acuerdo al Tema seleccionado, si fue completo o incompleto, y tipo de actividad (lectura, video, quizz, ejercicios)
 
   2. Reporte General por Generación.
-    2.1. Muestra porcentaje General (Completo/Incompleto).
-       2.1.1. Completo.
-          2.1.1.1. Lista de Estuduantes.
-       2.1.2. Incompleto.
-         2.1.2.1. Lista de Estudiantes.
+    - 2.1. Muestra porcentaje General (Completo/Incompleto).
+      - 2.1.1. Completo.
+         - 2.1.1.1. Lista de Estuduantes.
+      - 2.1.2. Incompleto.
+       -  2.1.2.1. Lista de Estudiantes.
          
      2.2. Búsqueda por Estudiante.    
