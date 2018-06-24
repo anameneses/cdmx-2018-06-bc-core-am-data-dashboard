@@ -1,9 +1,9 @@
 
 # Pseudocódigo
 
- ### a) El usuario accede al botón `SEDES` y elige la Sede de la que requiera información.
-### b) Seguido de esta acción, el usuario elegirá el número de `GENERACION` a la que desea accesar.
- ### c) A continuación, el usuario deberá elegir:
+ ###### a) El usuario accede al botón `SEDES` y elige la Sede de la que requiera información.
+###### b) Seguido de esta acción, el usuario elegirá el número de `GENERACION` a la que desea accesar.
+ ###### c) A continuación, el usuario deberá elegir:
 
   1. Listado de Estudiantes por Generación.
     - 1.1 Se muestran Nombres de las Estudiantes y el Porcentaje de avance en el sistema LMS.
