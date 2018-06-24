@@ -5,7 +5,7 @@ a) El usuarion accede al botón SEDES y elige la Sede de la que requiera informa
 b) Seguido de esta acción, el usuario elegirá el número de GENERACION a la que desea accesar.
 c) A continuación, el usuario deberá elegir:
   1. Listado de Estudiantes por Generación.
-    1.1. Se muestran Nombres de las Estudiantes y el Porcentaje de avance en el sistema LMS.
+    - Se muestran Nombres de las Estudiantes y el Porcentaje de avance en el sistema LMS.
       1.1.2. Se muestra Temario y Porcentaje de horas de estudio dentro de LMS.
         1.1.3 Se muestran Sub-temas de acuerdo al Tema seleccionado, si fue completo o incompleto, y tipo de actividad (lectura, video, quizz, ejercicios)
 
