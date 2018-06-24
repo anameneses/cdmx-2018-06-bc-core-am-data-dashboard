@@ -9,7 +9,10 @@ Nuestro primer acercamiento lo haremos a través del proceso de diseño, donde p
 
 También vamos a tener en cuenta al negocio, sus objetivos y a los stakeholders(involucrados)).
 
+El usuario nos ha hecho llegar una petición para elaborar un programa que recopile, manipule y muestre información, todo referente a los avances que las alumnas van teniendo en las diferentes activiades que se encuentran en el sistema LMS y el cual  se les proporciona  durante el Bootcamp dentro de Laboratoria, hemos revisado la información que ha sido proporcionada por el equipo, en ella se hace mención de las características principales con las que debe contar esta herramienta, básicamente contamos se tiene toda la data de cada una de las estudiantes Tambien se ha realizado una breve entrevista a un usuario para conocer mas a fondo lo que esperan de este programa.
+
 __Usuarixs:__  (Toda la información que sepas de ellxs, ya sea porque las has podido observar o porque obtuviste datos directamente de ellas)
+Este programa esta enfocado principalmente a las Training Manager de Laboratoria, quienes se encargan, entre otras cosas, de dar el seguimiento a las estuduantes y asi poder evaluar las situaciones en las que cada una se encuentra; sin embargo, esta información tambien podrá ser interpretada y tendrán acceso otras areas de Laboratoria.
 
 __Necesidades de las usuarias:__
 
