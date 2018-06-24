@@ -1,5 +1,5 @@
 
-#**Pseudocódigo
+**Pseudocódigo**
 
 > a) El usuarion accede al botón SEDES y elige la Sede de la que requiera información.
 > b) Seguido de esta acción, el usuario elegirá el número de GENERACION a la que desea accesar.
