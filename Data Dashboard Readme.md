@@ -24,4 +24,6 @@
     
   # Control de Flujo
     
-   Se realiza Control de flujo basado en solo  una Sede y una Generación ya que el flujo se repite por Sede y por Generación
+   Se realiza Control de Flujo basado en solo  una Sede y una Generación ya que el flujo se repite por Sede y por Generación
+   
+![alt tag](http://url/to/img.png)
