@@ -16,7 +16,7 @@ Obtener de forma clara y resumida los avances de las alumnas, todo con respecto 
 
 
 __Objetivos de las usuarias:__ 
-EL objetivo esperado de los usuarios es viaulizar mediante un tablero de datos, informacion especifica por estudiante,
+EL objetivo esperado de los usuarios es visualizar mediante un tablero de datos, información específica por estudiante.
 
 
 __Pain points:__ (En sus actividades diarias qué es lo que más les molesta u obstaculiza en el proceso de  realizar sus actividades/objetivos)
@@ -43,6 +43,8 @@ __1. Cuáles crees que son los datos más importantes a tener en cuenta para el 
 __2. Lo que los usuarios esperan obtener:__
 
 
+
+
 __3. Insights:__
 
 __4. Data proporcionada:__ 
@@ -59,7 +61,7 @@ __5. Insights del negocio:__
 
 Sketch: (Adjuntar liga)
 
-Prototipo en figma: (Adjuntar liga)
+Prototipo en figma: (https://www.figma.com/file/YxMbOnCY0H0hsrVm0Az1aE2r/Untitled)
 
 ### **5. User testing**
 (Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
