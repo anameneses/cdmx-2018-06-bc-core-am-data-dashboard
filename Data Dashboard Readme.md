@@ -26,7 +26,8 @@
     
    Se realiza Control de Flujo basado en solo  una Sede y una Generación ya que el flujo se repite por Sede y por Generación
   
-  <img align="center" src="../imagenes/CF.jpg" />
+  ![logo](./imagenes/CF.jpg)
+  
 
 
 
