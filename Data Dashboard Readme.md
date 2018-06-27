@@ -26,7 +26,7 @@
     
    Se realiza Control de Flujo basado en solo  una Sede y una Generación ya que el flujo se repite por Sede y por Generación
   
-![C.Flujo](CF.jpg)
+![C.Flujo](https://raw.githubusercontent.com/anameneses/cdmx-2018-06-bc-core-am-data-dashboard/master/ux/imagenes/CF.jpgCF.jpg)
   
 
 
