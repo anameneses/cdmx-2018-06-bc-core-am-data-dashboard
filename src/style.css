@@ -1,13 +1,16 @@
 body{
-    background-image: url(Imagenes\Logo.jpeg);
+  image: url(imagenes/collage.jpg);
+background-repeat:repeat;
+position: absolute;
+  background-image: url(Imagenes\Logo.jpeg);
     background-color: antiquewhite;
-}
+  }
 header{
     text-align-last: right;
     font-size: 2em;
     padding-right: 7em;
     padding-top: 1em;
-    
+
 }
 #header{
   margin-left: 4%;
@@ -16,7 +19,7 @@ header{
 
 .nav > li  {
    display: inline-block;
-   font-size: 1em;       
+   font-size: 1em;
 }
 
 .nav > li > a {
@@ -27,9 +30,9 @@ header{
     background-color: black;
     color: yellow;
     text-decoration: none;
-    text-align-last: center;    
+    text-align-last: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
+
 }
 p{
     text-align-last: center;
@@ -43,5 +46,5 @@ p{
     padding: 5px;
     margin-left: 31em;
     margin-top: 2em;
-    
+
 }
