@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>Labotaria Data Dashboard</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header>
-       Visualizador de Datos       
-    </header>    
 
-    <div id="header">
+  <body>    
+        <header>
+            <div class="container">
+                <h1>Visualizador de Datos</h1>  
+            </div>                 
+          </header>  
+    <div class="container">
+      <div id="header">
       <ul class="nav">
         <li><a href="">Sedes</a></li>
         <li><a href="">Generaciones</a></li>
       </ul>        
     </div>
- <p><strong>Sedes</strong></p>
+ <p id = ok><strong>Sedes</strong></p>
+    </div>
+      
 
- <select id="sedes" size="1">
-   <option selected>Elige una Opción</option>
-        <option value="1">México</option>
-     <option value="2">Lima</option>
-     <option value="3">Santiago</option>
-   </optgroup>
- </select>
+    
+ 
+<div class="container-fluid">
+    <form>
+        <!--<input id="sedes" type="button" value="SEDES">-->
+        <select name="sedes" id="sedes" size=1>
+          <option selected>Elije una opción</option>
+        </select>
 
+</div>
+ 
+
+
+
+  
+ 
+</form>
+<div id="resultado"></div>
     
     <script src="main.js"></script>
   </body>

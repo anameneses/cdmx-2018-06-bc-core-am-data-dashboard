@@ -9,7 +9,7 @@ Nuestro primer acercamiento lo haremos a través del proceso de diseño, donde p
 El usuario nos ha hecho llegar una petición para elaborar un programa que recopile, manipule y muestre información, todo referente a los avances que las alumnas van teniendo en las diferentes activiades que se encuentran en el sistema LMS y el cual  se les proporciona  durante el Bootcamp dentro de Laboratoria, hemos revisado la información que ha sido proporcionada por el equipo, en ella se hace mención de las características principales con las que debe contar esta herramienta, básicamente contamos se tiene toda la data de cada una de las estudiantes Tambien se ha realizado una breve entrevista a un usuario para conocer mas a fondo lo que esperan de este programa.
 
 __Usuarixs:__  
-Este programa está enfocado principalmente a las Training Managers de Laboratoria, quienes se encargan, entre otras cosas, de dar un  seguimiento al aprendizaje de  las estuduantes y  poder evaluar las situaciones en las que cada una se encuentra; sin embargo, esta información tambien podrá ser interpretada y tendrán acceso otras areas de Laboratoria.
+Este programa está enfocado principalmente a las Training Managers de Laboratoria, quienes se encargan, entre otras cosas, de dar un  seguimiento al aprendizaje de  las estudiantes y  poder evaluar las situaciones en las que cada una se encuentra; sin embargo, esta información tambien podrá ser interpretada y tendrán acceso otras areas de Laboratoria.
 
 __Necesidades de las usuarias:__
 Obtener de forma clara y resumida los avances de las alumnas, todo con respecto al sistems LMS, el cual estara dividido basicamente en dos partes, Completo e Incompleto. De alli podran analizar la mayor cantidad de datos posibles.
@@ -66,4 +66,4 @@ Prototipo en figma: (https://www.figma.com/file/YxMbOnCY0H0hsrVm0Az1aE2r/Untitle
 ### **5. User testing**
 (Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
 ****
-<img align="center" src="./imagenes/CF.jpg" />
+<img align="center" src="./imagenes/cf.jpg" />
