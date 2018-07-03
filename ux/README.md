@@ -59,11 +59,14 @@ __5. Insights del negocio:__
 ### **4. Prototipado**
 (Esta es la fase creativa, donde se comienza a construir el Data dashboard con la información obtenida de las fases anteriores. Se reafirma crear la experiencia de usuario, donde la solución resuelve necesidades y facilita la vida)
 
-Sketch: (Adjuntar liga)
+Sketch: 
+<img align="center" src="./imagenes/1.jpg" />
+<img align="center" src="./imagenes/2.jpg" />
+<img align="center" src="./imagenes/3.jpg" />
+<img align="center" src="./imagenes/4.jpg" />
 
 Prototipo en figma: (https://www.figma.com/file/YxMbOnCY0H0hsrVm0Az1aE2r/Untitled)
 
 ### **5. User testing**
 (Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
 ****
-<img align="center" src="./imagenes/cf.jpg" />
