@@ -12,16 +12,18 @@
             <div class="container">
                 <h1>Visualizador de Datos</h1>  
             </div>                 
-          </header>  
+        </header>  
     <div class="container">
       <div id="header">
       <ul class="nav">
         <li><a href="">Sedes</a></li>
         <li><a href="">Generaciones</a></li>
-      </ul>        
+        <input type="text" id="search" placeholder="Buscar Estudiante">  
+        <button id ="enter">Buscar</button>   
     </div>
- <p id = ok><strong>Sedes</strong></p>
     </div>
+
+    <p id = ok><strong>Sedes</strong></p>
       
 
     
@@ -30,7 +32,8 @@
     <form>
         <!--<input id="sedes" type="button" value="SEDES">-->
         <select name="sedes" id="sedes" size=1>
-          <option selected>Elije una opción</option>
+          <option selected>Elije una opcion</option>
+         
         </select>
 
 </div>
@@ -42,7 +45,10 @@
  
 </form>
 <div id="resultado"></div>
-    
+    <script src="data.js"></script>
+
     <script src="main.js"></script>
+    
+
   </body>
 </html>

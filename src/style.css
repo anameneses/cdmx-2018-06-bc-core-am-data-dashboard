@@ -1,21 +1,19 @@
 body{
          
-    background-color: antiquewhite;
+ 
 }
 header{
-    background-image: url(imagenes/1.jpg);
-    background-image:no-repeat;
- 
-    
+    background-image: url(imagenes/laboratoria.png); 
  
     
 }
+
 h1{
     text-align-last: right;
     font-size: 2em;
     padding-right: 1em;
     padding-top: 5em;  
-    color: #ff009e;
+    color: #9C9494;
 
 }
 
@@ -27,7 +25,8 @@ h1{
 
 .nav > li  {
    display: inline-block;
-   font-size: 1em;       
+   font-size: 1em;      
+   background-color: #22FD5F
 }
 
 .nav > li > a {
@@ -52,8 +51,16 @@ p{
 #sedes{
     font-size: 1.2em;
     padding: 5px;
-    margin-left: 31em;
-    margin-top: 2em;
+    display: block;
+  
     
     
+}
+#ok{
+    color:#ff009e;
+    margin-top: 1em;
+}
+
+#search{
+    margin-right: auto;
 }
