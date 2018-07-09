@@ -1,54 +1,70 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratoria Data Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-  <head>
-    <meta charset="utf-8">
-    <title>Labotaria Data Dashboard</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-
-  <body>    
-        <header>
-            <div class="container">
-                <h1>Visualizador de Datos</h1>  
-            </div>                 
-        </header>  
+<body>
     <div class="container">
-      <div id="header">
-      <ul class="nav">
-        <li><a href="">Sedes</a></li>
-        <li><a href="">Generaciones</a></li>
-        <input type="text" id="search" placeholder="Buscar Estudiante">  
-        <button id ="enter">Buscar</button>   
+        <!--Logotipo de la web-->
+        <header>
+            <img src="imagenes/laboratoria.png">   
+        </header>  
     </div>
-    </div>
-
-    <p id = ok><strong>Sedes</strong></p>
-      
-
-    
- 
-<div class="container-fluid">
-    <form>
-        <!--<input id="sedes" type="button" value="SEDES">-->
-        <select name="sedes" id="sedes" size=1>
-          <option selected>Elije una opcion</option>
-         
-        </select>
-
-</div>
- 
-
-
-
-  
- 
-</form>
-<div id="resultado"></div>
-    <script src="data.js"></script>
-
-    <script src="main.js"></script>
-    
-
-  </body>
+     <!--Botones de menu-->   
+     <div class="container-fluid">
+         <section class="row"></section>
+                <nav>
+                        <ul>
+                            <li><a href="#"><strong>SEDES</strong></a></li>
+                            <li><a href="#"><strong>GENERACIONES</strong></a></li>
+                             <!-- Input de Busqueda-->  
+                            <form>
+                                <input type="search" id="busqueda" placeholder="Buscar Estudiante">
+                                <button id ="enter">Buscar</button>  
+                            </form>   
+                        </ul>
+          </section>
+             <!-- Division entre menu e informacion a visualizar--> 
+                    <div id="pink"></div>
+                 </nav>
+                 <!-- Despliegue de sedes-->
+                 <section class="main row">
+                     <article class="col-md 12">
+                            <p><strong>SEDES</strong></p> 
+                            <form>
+                                <select name="sedes" id="sedes"size=1>
+                                    <option selected>Elije una Opcion</option>
+                                    <option value="lima">Lima</option>
+                                    <option value="mexico">Mexico</option>
+                                    <option value="santiago">Santiago</option>
+                                    </select>
+                            </form>
+                     </article>                  
+                 </section>
+                </nav>
+                <!-- Despliegue de Generaciones-->
+                <section class="main row">
+                    <article class="col-md 12">
+                           <p><strong>GENERACIONES</strong></p> 
+                           <form>
+                               <select name="generacion" id="generacion"size=1>
+                                   <option selected>Elije una Opcion</option>
+                                   <option value="cuarta">Cuarta</option>
+                                   <option value="quinta">Quinta</option>
+                                   <option value="tercera">Tercera</option>
+                                   </select>
+                           </form>
+                    </article>                  
+                </section>                      
+       </div>
+<script src="data.js"></script>
+<script src="main.js"></script>
+        
+</body>
 </html>
+

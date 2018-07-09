@@ -6,7 +6,7 @@ window.onload = ()=>{
         console.log(data);
         //crear funciones introduciendo la data implicita
         //computeStudentsStates(data);
-        //getSedes(data);
+        getSedes(data);
         //getGeneartion(data);
         //console.log(data);
     })

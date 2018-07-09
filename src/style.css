@@ -1,66 +1,41 @@
-body{
-         
- 
+header img{
+    width: 30%;
+    height: 115px;
+     
 }
-header{
-    background-image: url(imagenes/laboratoria.png); 
- 
-    
+img{
+   display: block;
+   margin: auto;
+   
 }
-
-h1{
-    text-align-last: right;
-    font-size: 2em;
-    padding-right: 1em;
-    padding-top: 5em;  
-    color: #9C9494;
-
-}
-
-
-#header{
-  margin-left: 4%;
-  margin-top: 5%;
-}
-
-.nav > li  {
-   display: inline-block;
-   font-size: 1em;      
-   background-color: #22FD5F
-}
-
-.nav > li > a {
-    margin-left: 2.5em;
-    display: block;
-    padding: 10px 18px;
-    width: 115px;
-    background-color: black;
-    color: yellow;
-    text-decoration: none;
-    text-align-last: center;    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
-}
-p{
-    text-align-last: center;
+#pink{
+    background-color: #ff009e;
+    padding: 1px 5px 5px 1px;    
+    width:auto;
+  }
+ nav ul li  a {   
+    padding: 10px 35px;
+    background-color: #ffe521;
     color: black;
-    font-family: sans-serif;
-    font-size: 2em;
-    margin-top: 4em;
-}
-#sedes{
-    font-size: 1.2em;
-    padding: 5px;
-    display: block;
-  
-    
+    text-decoration: none; 
     
 }
-#ok{
-    color:#ff009e;
-    margin-top: 1em;
+nav li {
+    display: inline-block;
+    font-size: 1em;      
 }
+nav form{
+    display: inline-block;
+    font-size: 1em;  
 
-#search{
-    margin-right: auto;
+}
+P{
+    
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+select{
+    margin-left: 50%;
+    margin-right: 50%;
 }
