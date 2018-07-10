@@ -46,12 +46,19 @@ Se créo un formulario, el cual fué enviado a un usurario directo "Training Man
 
 <img align="center" src="./imagenes/Entrevista.png" />
 
-__5. Objetivos del negocio:__ (Enlistarlo(s))
+__5. Objetivos del negocio:__ 
+- Unificar criterios para manejar la Data.
 
-__6. Motivaciones del negocio para el data dashboard:__(Enlistarlo(s))
+
+
+__6. Motivaciones del negocio para el data dashboard:__
+- Acceder a la Data fácilmente y visualizarla rápido.
 
 ### **2. Síntesis y definición**
-(Dada la fase anterior de investigación, ahora vamos a tomar todos los datos más importantes y transformarlos en información valiosa para comenzar a orientarse a la solución. También vamos a entender lo que la empresa quiere de ese producto y comenzar a entender ambas visiones con el fin de encontrar un punto armónico)
+
+Tomando en consideración lo antes mencionado, se obtiene lo siguiente:
+
+El usuario nos ha hecho llegar una petición para elaborar un programa que recopile, manipule y muestre información, todo referente a los avances que las alumnas van teniendo en las diferentes activiades que se encuentran en el sistema LMS y el cual  se les proporciona  durante el Bootcamp dentro de Laboratoria, hemos revisado la información que ha sido proporcionada por el equipo, en ella se hace mención de las características principales con las que debe contar esta herramienta, básicamente  se tiene toda la data de cada una de las estudiantes Tambien se ha realizado una breve entrevista a un par de usuarios para conocer mas a fondo lo que esperan de este producto.
 
 __1. Cuáles crees que son los datos más importantes a tener en cuenta para el Data Dashboard:__
 
@@ -59,11 +66,13 @@ __1. Cuáles crees que son los datos más importantes a tener en cuenta para el 
    - Sede y Generacion a la que pertenecen
    - Nombre de la estudiante
    - Porcentajes de completitud dentro del estudio LMS, con esto se tendría una idea del avance de la estudiante
+   - Reporte General de completitud por Generación
  
 
 __2. Lo que los usuarios esperan obtener:__
-1.Menos es más, es necesario hacer foco sobre lo importante.
-Accesar a la data manipulando la herramienta facilmente.
+
+- Fácil acceso a la información
+- Que pueda ser analizada/visualizada de forma sencilla
 
 
 
@@ -72,7 +81,8 @@ __3. Insights:__
 
 __4. Data proporcionada:__ 
 
-     -_Data relacionada a los cursos:_
+   _Data relacionada a los cursos:_
+   - 
 
 __5. Insights del negocio:__
 

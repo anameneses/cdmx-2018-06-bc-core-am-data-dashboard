@@ -30,12 +30,30 @@ nav form{
 
 }
 P{
-    
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2em;
     font-size: 1.5em;
 }
 select{
     margin-left: 50%;
     margin-right: 50%;
+}
+#info{
+    margin-top: 5%;
+}
+
+#estudiante{
+    padding: 10px 35px;
+    background-color: gray;
+    color:#ffe521;;
+    float: left;
+    
+   
+}
+#reporte{
+    padding: 10px 35px;
+    background-color: gray;
+    color: #ffe521;;
+    float: left;
+    
 }

@@ -20,47 +20,58 @@
          <section class="row"></section>
                 <nav>
                         <ul>
-                            <li><a href="#"><strong>SEDES</strong></a></li>
-                            <li><a href="#"><strong>GENERACIONES</strong></a></li>
+                            <li><a href=""><strong>INICIO</strong></a></li>
                              <!-- Input de Busqueda-->  
                             <form>
                                 <input type="search" id="busqueda" placeholder="Buscar Estudiante">
                                 <button id ="enter">Buscar</button>  
                             </form>   
                         </ul>
+                 </nav>
           </section>
              <!-- Division entre menu e informacion a visualizar--> 
                     <div id="pink"></div>
-                 </nav>
-                 <!-- Despliegue de sedes-->
+                 <!-- Despliegue de Sedes-->
                  <section class="main row">
                      <article class="col-md 12">
-                            <p><strong>SEDES</strong></p> 
+                            <p><strong>SEDE</strong></p> 
                             <form>
                                 <select name="sedes" id="sedes"size=1>
                                     <option selected>Elije una Opcion</option>
-                                    <option value="lima">Lima</option>
-                                    <option value="mexico">Mexico</option>
-                                    <option value="santiago">Santiago</option>
+                                    <option value="0"></option>
+                                    <option value="1"></option>
+                                    <option value="2"></option>
                                     </select>
                             </form>
                      </article>                  
                  </section>
-                </nav>
-                <!-- Despliegue de Generaciones-->
+                  <!-- Despliegue de Generaciones-->
                 <section class="main row">
                     <article class="col-md 12">
-                           <p><strong>GENERACIONES</strong></p> 
+                           <p><strong>GENERACION</strong></p> 
                            <form>
                                <select name="generacion" id="generacion"size=1>
                                    <option selected>Elije una Opcion</option>
-                                   <option value="cuarta">Cuarta</option>
+                                   <option value="1">Cuarta</option>
                                    <option value="quinta">Quinta</option>
                                    <option value="tercera">Tercera</option>
                                    </select>
                            </form>
                     </article>                  
-                </section>                      
+                </section>    
+                <!-- Botones de Acceso a Iformacion-->
+                <div id="info">
+                <section>
+                  <article>
+                    <button id="estudiante"><strong>ESTUDIANTES POR GENERACION</strong></button>
+                    <button id="reporte"><strong>REPORTE GENERAL POR GENERACION</strong></button>
+                    <!--<ul>
+                      <li><a href="" value="estudiante"><strong>Estudiantes por Generacion</strong></a></li>
+                      <li><a href="" value="reporte"><strong>Reporte General por Generacion</strong></a></li>
+                    </ul>-->                                    
+                  </article>                  
+              </section>
+            </div>                                        
        </div>
 <script src="data.js"></script>
 <script src="main.js"></script>
