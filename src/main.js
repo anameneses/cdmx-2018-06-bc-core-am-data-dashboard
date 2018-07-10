@@ -1,39 +1,65 @@
 const sedes = document.getElementById('sedes');
-const generation = document.getElementById('generacion');
+const contenedorGeneracion = document.getElementById('generation');
 const list = document.getElementById('estudiante');
 const report = document.getElementById('reporte');
 
-getSedes = (data) =>{
-  sedes.addEventListener('change', (event) =>{
-    const createArray = Object.keys(data);
-    console.log(createArray);
-    var sedesCampus=[];
-    //console.log(sedesCampus)
-    for (let i=0; i<createArray.length; i++){
-      
-      
-      //console.log(createArray[i])
-      sedes.options[i] = new Option(createArray[i]);
-      
+
+let dataAcumulada = null;
+
+
+const getList = (data) => {
+  dataAcumulada = data;
+  console.log(data);
+};
+list.addEventListener('click', ()=>{
+  getList(dataAcumulada);
+  
+  console.log(sedes.value, contenedorGeneracion.value, data[event.target.value]);
+});
+
+const getGeneration = (data) => {
+  dataAcumulada = data;
+
+  const generaciones = data[event.target.value].generacion;
+ console.log(data[event.target.value])
+  console.log(generaciones);
+  for (let key in generaciones) {
+    console.log(generaciones[key]);
+    let option = document.createElement('option');
+    // console.log(option)
+    option.innerHTML = key;
+    contenedorGeneracion.appendChild(option);
+    console.log(option);
+  }
+  contenedorGeneracion.addEventListener('change', ()=>{
+    getList(data);
+    const botonesDisable = document.getElementsByClassName('est');
+    console.log(botonesDisable);
+    for (let i = 0; i < botonesDisable.length; i++) {
+      console.log(botonesDisable[i]);
+      botonesDisable[i].removeAttribute('disabled');
+      botonesDisable[i].style.background = 'green'; 
+      console.log(botonesDisable[i]);
     }
-    
-    
-    //const campus = event.target.value;  
-    
-    // const index = event.target.selectedIndex;    
-    //console.log(event.target.value);
-    //    const campus= event.target[index].innerHTML.toLowerCase()
-    //console.log(campus);
-    //const mostrarGener = data[campus];
-    
-    
-    //console.log(mostrarGener);
-    //console.log(mostrarCampus);
-    // console.log(event.target[index].innerHTML.toLowerCase());
-    //for (key in campus) {}
-    // console.log(campus)
-    // return campus.generacion;
   });
 };
 
 
+getSedes = (data) =>{
+  for (let key in data) {
+    // console.log(data[key]);
+    let option = document.createElement('option');
+    console.log(option);
+    option.innerHTML = key;
+    sedes.appendChild(option);
+    // console.log(option)
+  }
+  sedes.addEventListener('change', ()=>{
+    getGeneration(data);
+  });
+};
+
+
+computeStudentsStats=(laboratoria) => {
+  console.log(computeStudentsStats)
+}
