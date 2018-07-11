@@ -44,16 +44,19 @@ select{
 
 #estudiante{
     padding: 10px 35px;
-    background-color: gray;
-    color:#ffe521;;
+    
+    
     float: left;
     
    
 }
 #reporte{
     padding: 10px 35px;
-    background-color: gray;
-    color: #ffe521;;
+    
+    
     float: left;
     
+}
+.est :disabled {
+    background: #56f89a,
 }

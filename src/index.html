@@ -9,14 +9,14 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <!--Logotipo de la web-->
         <header>
             <img src="imagenes/laboratoria.png">   
         </header>  
-    </div>
+    
      <!--Botones de menu-->   
-     <div class="container-fluid">
+     
          <section class="row"></section>
                 <nav>
                         <ul>
@@ -33,7 +33,7 @@
                     <div id="pink"></div>
                  <!-- Despliegue de Sedes-->
                  <section class="main row">
-                     <article class="col-md 12">
+                     <article class="col-md">
                             <p><strong>SEDE</strong></p> 
                             <form>
                                 <select name="sedes" id="sedes"size=1>
@@ -45,9 +45,9 @@
                  </section>
                   <!-- Despliegue de Generaciones-->
                 <section class="main row">
-                    <article class="col-md 12">
+                    <article class="col-md">
                            <p><strong>GENERACION</strong></p> 
-                           <form>
+                           <form class="col-md">
                                <select name="generacion" id="generation"size=1>
                                    <option selected>Elije una Opcion</option>
                                    <!--<option value="1">Cuarta</option>
@@ -59,20 +59,20 @@
                 </section>    
                 <!-- Botones de Acceso a Iformacion-->
                 <div id="info">
-                <section>
-                  <article>
+                <section class="row">
+                  <article class="col-lg">
                     <button id="estudiante" class="est"disabled ><strong>ESTUDIANTES POR GENERACION</strong></button>
                     <button id="reporte" class="est"disabled><strong>REPORTE GENERAL POR GENERACION</strong></button>
-                    <!--<ul>
-                      <li><a href="" value="estudiante"><strong>Estudiantes por Generacion</strong></a></li>
-                      <li><a href="" value="reporte"><strong>Reporte General por Generacion</strong></a></li>
-                    </ul>-->                                    
+                    <p>Estudiantes</p>           
+                    <P id="resultado"></P>                        
                   </article>                  
               </section>
             </div>                                        
-       </div>
+       
+       
 <script src="data.js"></script>
 <script src="main.js"></script>
+</div>
         
 </body>
 </html>

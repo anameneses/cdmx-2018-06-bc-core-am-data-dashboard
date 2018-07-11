@@ -6,9 +6,7 @@ window.onload = ()=>{
     .then((data)=>{ // funcion llamada data
       console.log(data);
       // crear funciones introduciendo la data implicita
-       
-      getSedes(data);
-      //getGeneracion(data);
-      // console.log(data);
+             getSedes(data);
+     
     });
 };
