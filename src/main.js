@@ -11,7 +11,7 @@ const getList = (dataAcumulada, campus, generacion) => {
   let alumnasEstudiantes = Object.values(estudiantes);  
    
   for (let i = 0; i < alumnasEstudiantes.length; i++) {
-    console.log(alumnasEstudiantes[i]);
+    
   }
 };
 
@@ -20,8 +20,8 @@ list.addEventListener('click', ()=>{
   const generacion = contenedorGeneracion.value;
   getList(dataAcumulada, campus, generacion);
   
-  console.log(campus, generacion);
-  resultado.innerHTML = 'Estudiantes de la '+ generacion + ' generación en ' + campus;
+  
+  resultado.innerHTML = 'Estudiantes de la '+ generacion + ' generación de ' + campus;
 
 });
  
