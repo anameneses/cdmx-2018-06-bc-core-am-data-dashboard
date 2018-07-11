@@ -4,9 +4,7 @@ window.onload = ()=>{
   fetch(url)
     .then(resp => resp.json()) // pido que res me devuelva el json
     .then((data)=>{ // funcion llamada data
-      console.log(data);
       // crear funciones introduciendo la data implicita
-             getSedes(data);
-     
+      getSedes(data);
     });
 };

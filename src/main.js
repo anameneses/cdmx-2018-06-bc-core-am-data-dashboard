@@ -2,80 +2,57 @@ const contenedorSedes = document.getElementById('sedes');
 const contenedorGeneracion = document.getElementById('generation');
 const list = document.getElementById('estudiante');
 const report = document.getElementById('reporte');
-const resultado = document.getElementById('resultado');
-
+const resultado = document.getElementById('mostrar');
 let dataAcumulada = null;
 
-
-const getList = (data, campus, generacion) => {
-  let estudiantes = (data[campus].generacion);
-  //console.log(estudiantes)
-  let alumnasEstudiantes = Object.values(estudiantes);
-  //console.log(alumnasEstudiantes)
+//Funcion para desplegar info de Estudiantes, presionando boton Estudiantes por Generacion
+const getList = (dataAcumulada, campus, generacion) => {
+  let estudiantes = (dataAcumulada[campus].generacion);
+  let alumnasEstudiantes = Object.values(estudiantes);  
    
-  for (let i=0; i<alumnasEstudiantes.length; i++) {
+  for (let i = 0; i < alumnasEstudiantes.length; i++) {
     console.log(alumnasEstudiantes[i]);
-   
   }
- 
-
-}
+};
 
 list.addEventListener('click', ()=>{
   const campus = contenedorSedes.value;
   const generacion = contenedorGeneracion.value;
-  
-    
   getList(dataAcumulada, campus, generacion);
   
-   console.log(campus, generacion)
-   resultado.innerHTML += campus, generacion  + ' generacion';
-  
-   
+  console.log(campus, generacion);
+  resultado.innerHTML = 'Estudiantes de la '+ generacion + ' generación en ' + campus;
+
 });
  
-// getList(dataAcumulada,);
-
-
 // Funcion para mostrar generaciones
 getGeneration = (data) => {
   dataAcumulada = data;
-  const generaciones = data[event.target.value].generacion;
-  // console.log(data[event.target.value])
-  // console.log(generaciones);
+  const generaciones = data[event.target.value].generacion; 
   contenedorGeneracion.innerHTML = '';
+
   for (let key in generaciones) {
-    // console.log(generaciones[key]);
-    let option = document.createElement('option');
-    // console.log(option)
+    let option = document.createElement('option');  
     option.innerHTML = key;
-    contenedorGeneracion.appendChild(option);
-    // console.log(option);
+    contenedorGeneracion.appendChild(option);    
   }
   // Dentro de la Funcion Generaciones, se habilita deshabilitan botones
-  contenedorGeneracion.addEventListener('change', ()=>{
-    // console.log(event.target.value)
-    const botonesDisable = document.getElementsByClassName('est');
-    // console.log(botonesDisable);
+  contenedorGeneracion.addEventListener('change', ()=>{    
+    const botonesDisable = document.getElementsByClassName('est');   
+
     for (let i = 0; i < botonesDisable.length; i++) {
-      // console.log(botonesDisable[i]);
       botonesDisable[i].removeAttribute('disabled');
-      botonesDisable[i].style.background = '#56f89a'; 
-      // console.log(botonesDisable[i]);
+    
     }
   });
 };
 
 // Funcion para mostrar sedes
-// se nombra una funcion que tendra la data
 getSedes = (data) =>{
-  for (let key in data) {
-    // console.log(data[key]);
-    let option = document.createElement('option');
-    // console.log(option);
+  for (let key in data) {    
+    let option = document.createElement('option');    
     option.innerHTML = key;
-    contenedorSedes.appendChild(option);
-    // console.log(option)
+    contenedorSedes.appendChild(option);    
   }
   
   contenedorSedes.addEventListener('change', ()=>{

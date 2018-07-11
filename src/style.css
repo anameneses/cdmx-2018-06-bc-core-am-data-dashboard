@@ -27,6 +27,7 @@ nav li {
 nav form{
     display: inline-block;
     font-size: 1em;  
+    margin-left: 67%;
 
 }
 P{
@@ -35,28 +36,27 @@ P{
     font-size: 1.5em;
 }
 select{
-    margin-left: 50%;
+    margin-left: 45%;
     margin-right: 50%;
 }
-#info{
-    margin-top: 5%;
-}
+
 
 #estudiante{
-    padding: 10px 35px;
-    
-    
-    float: left;
-    
-   
+    padding: 10px 35px;  
+    float: left;  
+    margin-top: 5%;
+    margin-left: 18%;
+    margin-right: 3em;
 }
 #reporte{
     padding: 10px 35px;
-    
-    
     float: left;
-    
+    margin-top: 5%;
+    margin-left: 12%;
 }
-.est :disabled {
-    background: #56f89a,
+#mostrar{
+    text-align-last: center;
+    margin-top: 5%;
+    font-size: 1.5em;
+    
 }
